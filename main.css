@@ -1,0 +1,123 @@
+/* Estilos gerais para o corpo do documento */
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Estilos para a barra de navegação */
+  .navbar {
+    background-color: #1d5926 !important;
+  }
+  
+  /* Estilos para links ativos na barra de navegação */
+  #cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #d97014;
+  }
+  
+  /* Estilos para links na barra de navegação e navbar-brand */
+  #cabecalho .nav .nav-link,
+  .navbar-brand,
+  .navbar-brand:hover,
+  .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+  }
+  
+  /* Estilo específico para navbar-brand */
+  .navbar-brand {
+    font-family: "Pacifico", cursive;
+    color: #d97014;
+    font-size: 2rem;
+  }
+  
+  /* Estilos para o botão toggle da navbar */
+  .navbar-toggler {
+    background-color: #ffeee6;
+  }
+  
+  #conteudo-principal {
+    margin-top: 80px; /* Ajuste conforme a altura do seu cabeçalho */
+  }
+  
+  /* Estilos para títulos de seção */
+  .section-title {
+    font-family: Pacifico, cursive;
+  }
+  
+  /* Estilos para seções específicas */
+  #sobre-a-pizzaria,
+  #cardapio {
+    background-color: #ebbb814d;
+  }
+  
+  /* Estilos para texto colorido */
+  .text-colored {
+    color: #d97014;
+  }
+  
+  /* Estilos para links ativos na seção de cardápio */
+  .nav-cardapio .nav-link.active,
+  #section-eventos button,
+  #fale-conosco button,
+  #itens-cardapio button {
+    background-color: #d94814;
+    color: #fff;
+  }
+  
+  #itens-cardapio button {
+    margin-bottom: 1rem;
+    color: #ffeee6;
+  }
+  
+  #itens-cardapio .button-minus {
+    background-color: rgba(255, 0, 0, 0.75);
+    color: #ffeee6;
+  }
+  
+  #itens-cardapio .button-plus {
+    background-color: #2d863acc;
+    color: #ffeee6;
+  }
+  
+  /* Estilos para links hover na seção de cardápio */
+  .nav-cardapio .nav-link:hover {
+    color: #e15f41;
+  }
+  
+  /* Estilos para lista de redes sociais */
+  .social-links li {
+    list-style: none;
+    display: inline;
+  }
+  
+  /* Estilos para links dentro da lista de redes sociais */
+  .social-links li a {
+    text-decoration: none;
+  }
+  
+  .error {
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* Estilo de hover para os cards */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card-footer .btn {
+    color: #fff;
+    border: none;
+  }
+  
+  .card-footer .btn:hover {
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #15411c;
+    color: #ffeee6;
+  }
